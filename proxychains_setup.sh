@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#how to run proxychains_setup
+#how to run proxychains_setup.sh
 
 # cd proxy-chains-setup && chmod +x && sudo ./proxychains.sh
 
