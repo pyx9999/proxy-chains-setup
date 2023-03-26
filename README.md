@@ -8,10 +8,6 @@ sudo apt install git && git clone https://github.com/pyx9999/proxy-chains-setup.
 
 cd proxy-chains-setup && chmod +x proxychains_setup.sh && sudo ./proxychains_setup.sh
 
-after script completes run the following
-
-sudo service tor start && proxychains firefox https://www.dnsleaktest.com/
-
 when done using tor run 
 
 sudo service tor stop
