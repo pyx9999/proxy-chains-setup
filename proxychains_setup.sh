@@ -2,7 +2,7 @@
 
 #how to run proxychains_setup.sh
 
-# cd proxy-chains-setup && chmod +x && sudo ./proxychains.sh
+# cd proxy-chains-setup && chmod +x proxychains_setup.sh && sudo ./proxychains_setup.sh
 
 
 echo | apt install tor proxychains
