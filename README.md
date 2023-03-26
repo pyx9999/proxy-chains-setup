@@ -8,7 +8,7 @@ cd proxy-chains-setup && chmod +x proxychains_setup.sh && sudo ./proxychains_set
 
 after script completes run the following
 
-sudo tor service tor start && proxychains firefox https://www.dnsleaktest.com/
+sudo service tor start && proxychains firefox https://www.dnsleaktest.com/
 
 when done using tor run 
 
