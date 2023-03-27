@@ -16,6 +16,8 @@ after proxychains is set up to use random_chain.... test it out
 to start:
 
 sudo service tor start
+
+
 proxychains firefox https://www.dnsleaktest.com/
 
 
