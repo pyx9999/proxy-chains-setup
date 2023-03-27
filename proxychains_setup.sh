@@ -12,4 +12,4 @@ echo "socks5  127.0.0.1 9050" | cat >> /etc/proxychains.conf
 sed -i '18 s/./#&/' /etc/proxychains.conf
 sed -i '25 s/#//'  /etc/proxychains.conf
 updatedb
-service tor start
+echo " .....you can now run something with proxychains.......... "
