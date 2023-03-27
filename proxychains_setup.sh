@@ -9,8 +9,7 @@ apt upgrade -y
 echo | apt install tor proxychains
 updatedb
 echo "socks5  127.0.0.1 9050" | cat >> /etc/proxychains.conf
-sed '18 s/./#&/' /etc/proxychains.conf
-sed '25 s/#//'  /etc/proxychains.conf
+sed -i '18 s/./#&/' /etc/proxychains.conf
+sed -i '25 s/#//'  /etc/proxychains.conf
 updatedb
 service tor start
-proxychains firefox https://www.dnsleaktest.com/
