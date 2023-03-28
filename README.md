@@ -6,7 +6,11 @@ this is a shell script to configure proxychains to use tor.
 
 git clone https://github.com/pyx9999/proxy-chains-setup.git
 
-cd proxy-chains-setup && chmod +x proxychains_setup.sh && sudo ./proxychains_setup.sh
+cd proxy-chains-setup 
+
+chmod +x proxychains_setup.sh
+
+sudo ./proxychains_setup.sh
 
 
 
