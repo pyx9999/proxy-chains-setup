@@ -6,11 +6,17 @@
 
 apt update -y 
 apt upgrade -y
-echo | apt install tor proxychains
+
+apt install tor proxychains -y
+
 updatedb
+
 echo "socks5  127.0.0.1 9050" | cat >> /etc/proxychains.conf
+
 updatedb
+
 sed -i '18 s/./#&/' /etc/proxychains.conf
 sed -i '25 s/#//'  /etc/proxychains.conf
+
 echo " you are now configured to use proxychains with random_chain "
 echo " .....enjoy....."
