@@ -1,5 +1,5 @@
 # proxy-chains-setup
-this is a shell script to configure proxychains to use random chain
+this is a shell script to configure proxychains to use tor with random chain
 
 
 #how to run proxychains_setup
