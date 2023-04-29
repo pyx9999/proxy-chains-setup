@@ -4,8 +4,6 @@
 
 # cd proxy-chains-setup && chmod +x proxychains_setup.sh && sudo ./proxychains_setup.sh
 
-apt update -y 
-apt upgrade -y
 
 apt install tor proxychains -y
 
