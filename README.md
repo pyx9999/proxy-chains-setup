@@ -14,7 +14,7 @@ sudo ./proxychains_setup.sh
 
 
 
-after proxychains is set up to use random_chain.... test it out
+after proxychains is set up to use random chain.... test it out
 
 
 to start:
